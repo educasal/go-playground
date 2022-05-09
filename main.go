@@ -1,6 +1,11 @@
 package main
 
 func main() {
-	untypedConstant()
-	multipleConstants()
+	// untypedConstant()
+	// multipleConstants()
+	omittingTypes()
+	defaultValues()
+	multipleVariables()
+	shorthandAssignment()
+	defaultTypes()
 }
