@@ -71,3 +71,21 @@ func parseFloatsFromStrings() {
 	fmt.Println(val2, int2, int2err)
 	fmt.Println(val3, int3, int3err)
 }
+
+func formatValuesAsStrings() {
+	val1 := true
+	val2 := 110
+	val3 := 4.895e+01
+
+	str1 := strconv.FormatBool(val1)
+	str2 := strconv.FormatInt(int64(val2), 2)
+	str3 := strconv.FormatFloat(val3, 'f', 2, 64)
+	str4 := strconv.Itoa(val2)
+
+	fmt.Println("Fomatting different types as strings")
+	fmt.Println(str1)
+	fmt.Println(str2)
+	fmt.Println(str3)
+	fmt.Println(str4)
+
+}
