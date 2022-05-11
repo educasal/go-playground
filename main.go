@@ -16,5 +16,6 @@ func main() {
 
 	// conversionsFromFloatToInteger()
 	// parseBooleansFromStrings()
-	parseIntegersFromStrings()
+	// parseIntegersFromStrings()
+	parseFloatsFromStrings()
 }

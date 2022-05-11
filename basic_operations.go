@@ -38,11 +38,36 @@ func parseBooleansFromStrings() {
 }
 
 func parseIntegersFromStrings() {
-	val1 := "100"
+	val1 := "999"
+	val2 := "110"
+	val3 := "edu"
 	int1, int1err := strconv.ParseInt(val1, 10, 0)
-	int2, int2err := strconv.ParseInt(val1, 2, 0)
+	int2, int2err := strconv.ParseInt(val2, 2, 0)
+	int3, int3err := strconv.ParseInt(val3, 2, 0)
 
 	fmt.Println("Parsing integers from strings")
 	fmt.Println(val1, int1, int1err)
-	fmt.Println(val1, int2, int2err)
+	fmt.Println(val2, int2, int2err)
+	fmt.Println(val3, int3, int3err)
+
+	int4, int4err := strconv.Atoi(val1)
+	int5, int5err := strconv.Atoi(val2)
+	int6, int6err := strconv.Atoi(val3)
+	fmt.Println(val1, int4, int4err)
+	fmt.Println(val2, int5, int5err)
+	fmt.Println(val3, int6, int6err)
+}
+
+func parseFloatsFromStrings() {
+	val1 := "48.95"
+	val2 := "4.895e+01"
+	val3 := "edu"
+	int1, int1err := strconv.ParseFloat(val1, 64)
+	int2, int2err := strconv.ParseFloat(val2, 32)
+	int3, int3err := strconv.ParseFloat(val3, 32)
+
+	fmt.Println("Parsing floats from strings")
+	fmt.Println(val1, int1, int1err)
+	fmt.Println(val2, int2, int2err)
+	fmt.Println(val3, int3, int3err)
 }
