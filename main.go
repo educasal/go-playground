@@ -10,7 +10,11 @@ func main() {
 	// shorthandAssignment()
 	// defaultTypes()
 
-	simplePointer()
-	nilPointerDereference()
-	doublePointer()
+	// simplePointer()
+	// nilPointerDereference()
+	// doublePointer()
+
+	// conversionsFromFloatToInteger()
+	// parseBooleansFromStrings()
+	parseIntegersFromStrings()
 }
