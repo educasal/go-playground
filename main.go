@@ -20,6 +20,7 @@ func main() {
 	// parseFloatsFromStrings()
 	// formatValuesAsStrings()
 
-	conditionals()
-	loops()
+	// conditionals()
+	// loops()
+	enumerating()
 }
