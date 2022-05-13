@@ -18,5 +18,8 @@ func main() {
 	// parseBooleansFromStrings()
 	// parseIntegersFromStrings()
 	// parseFloatsFromStrings()
-	formatValuesAsStrings()
+	// formatValuesAsStrings()
+
+	conditionals()
+	loops()
 }
