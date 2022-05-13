@@ -71,8 +71,35 @@ func enumerating() {
 	for index, character := range name {
 		fmt.Println(index, string(character))
 	}
+
+	people := []string{"Marta", "Sebas", "Guille"}
+
+	for index, person := range people {
+		fmt.Println(index, person)
+	}
+
 }
 
 func switches() {
+	name := "GaspAr Melchor de Jovellanos"
 
+	for index, character := range name {
+		switch character {
+		case 'a', 'A':
+			fmt.Println("Found an a at position", index)
+		}
+
+	}
+
+	for index, character := range name {
+		switch character {
+		case 'a':
+			fallthrough
+		case 'A':
+			fmt.Println("Found an a at position", index)
+		default:
+			fmt.Println("Found no a at position", index)
+		}
+
+	}
 }

@@ -22,5 +22,6 @@ func main() {
 
 	// conditionals()
 	// loops()
-	enumerating()
+	// enumerating()
+	switches()
 }
