@@ -23,5 +23,6 @@ func main() {
 	// conditionals()
 	// loops()
 	// enumerating()
-	switches()
+	// switches()
+	gotToTarget()
 }

@@ -100,6 +100,18 @@ func switches() {
 		default:
 			fmt.Println("Found no a at position", index)
 		}
+	}
 
+}
+
+func gotToTarget() {
+	fmt.Println("Goto target")
+
+	count := 0
+target:
+	fmt.Println(count)
+	count++
+	if count < 3 {
+		goto target
 	}
 }
