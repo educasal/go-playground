@@ -24,5 +24,9 @@ func main() {
 	// loops()
 	// enumerating()
 	// switches()
-	gotToTarget()
+	// gotToTarget()
+
+	// arrays()
+	// slices()
+	rats()
 }
